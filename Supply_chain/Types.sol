@@ -9,7 +9,7 @@ library Types {
         Supplier, // 1
         Vendor, // 2
         Customer, // 3
-        Company_owner //4 added for company--
+        Company_owner //4 added company
     }
     
     struct UserDetails {
@@ -19,6 +19,7 @@ library Types {
         string email;
     }
     // struct to add company--
+
     struct CompanyDetails{
         address PAN;
         string company_name;
