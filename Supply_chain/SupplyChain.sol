@@ -31,14 +31,13 @@ contract SupplyChain is Users, Products {
     mapping(uint256=>address) public IndextoCompany;
     CompanyDetails[] public CD;
     
-    // this is the event cfor creating company
+    // this is the event for creating company
     event add_Company( 
         address _pan,
         string _name,
         string e_id
      
-        );
-
+    );
 
 
         
