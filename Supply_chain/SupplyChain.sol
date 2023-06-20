@@ -45,9 +45,9 @@ contract SupplyChain is Users, Products {
 
 
         function addCompany(string memory _name, string memory email  ) public  {
-         CD.push(CompanyDetails(msg.sender,_name,email));
-        //   uint id =   CD.push(CompanyDetails(msg.sender,_name,email));
-        // IndextoCompany[id] = msg.sender;
+       
+
+        CD.push(CompanyDetails(msg.sender,_name,email));
         
         
        
